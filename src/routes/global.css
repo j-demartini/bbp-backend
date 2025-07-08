@@ -1,0 +1,40 @@
+html 
+{
+    color:black;
+}
+
+body
+{
+    margin:0;
+}
+
+.speciallettering
+{
+    text-decoration:underline;
+    text-decoration-color:#ED5C57;
+}
+
+.specialcolor
+{
+    color:#ED5C57;
+}
+
+.biotitle
+{
+    margin-left:10%;
+    margin-right:10%;
+
+    font-variant:small-caps;
+    font-size:3vw;
+    font-family:Aptos;
+    padding-top:20vh;
+}
+
+@media print
+{
+    .biotitle
+    {
+        font-size:5vw;
+        padding-top:0;
+    }
+}
